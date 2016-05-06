@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfPrototype3", "WpfPrototype3\WpfPrototype3.csproj", "{1ad5b016-0cc8-4e5d-a389-d93c40e455d3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfPrototype3Screens", "WpfPrototype3\WpfPrototype3Screens\WpfPrototype3Screens.csproj", "{1c41a25c-a08d-4ae0-ae9f-0013e3e3e65c}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AD5B016-0CC8-4E5D-A389-D93C40E455D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD5B016-0CC8-4E5D-A389-D93C40E455D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD5B016-0CC8-4E5D-A389-D93C40E455D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD5B016-0CC8-4E5D-A389-D93C40E455D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C41A25C-A08D-4AE0-AE9F-0013E3E3E65C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C41A25C-A08D-4AE0-AE9F-0013E3E3E65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C41A25C-A08D-4AE0-AE9F-0013E3E3E65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C41A25C-A08D-4AE0-AE9F-0013E3E3E65C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

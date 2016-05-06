@@ -1,0 +1,32 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" x:Name="About_us_Name"
+	mc:Ignorable="d"
+	x:Class="WpfPrototype3Screens.About_us"
+	Width="499" Height="413">
+
+	<Grid x:Name="LayoutRoot" Background="#FFD7CCC8">
+        <Rectangle Fill="#FF5D4037" Height="79.788" VerticalAlignment="Top"/>
+        <Rectangle Fill="#FF795548" Height="23" Stroke="Black" VerticalAlignment="Bottom"/>
+        <Button Content="OK!" Margin="203,0,221,64.04" VerticalAlignment="Bottom">
+        	<i:Interaction.Triggers>
+        		<i:EventTrigger EventName="Click">
+        			<pi:NavigateToScreenAction TargetScreen="WpfPrototype3Screens.Screen_1"/>
+        		</i:EventTrigger>
+        	</i:Interaction.Triggers>
+        </Button>
+        <Label Content="About VRMLLA" HorizontalAlignment="Left" Height="34" Margin="17,28,0,0" VerticalAlignment="Top" Width="163" FontSize="16" Foreground="White"/>
+        <Button Content="Button" HorizontalAlignment="Right" Margin="0,18,47,0" VerticalAlignment="Top" Width="51" Height="44" BorderBrush="{x:Null}" Foreground="{x:Null}">
+        	<Button.Background>
+        		<ImageBrush ImageSource="ic_highlight_off_black_48dp.png" Stretch="Uniform"/>
+        	</Button.Background>
+        	<i:Interaction.Triggers>
+        		<i:EventTrigger EventName="Click">
+        			<pi:NavigateToScreenAction TargetScreen="WpfPrototype3Screens.Screen_1"/>
+        		</i:EventTrigger>
+        	</i:Interaction.Triggers>
+        </Button>
+		</Grid>
+</UserControl>
